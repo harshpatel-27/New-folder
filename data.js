@@ -71,7 +71,88 @@
         "opt4": "JavaFX Driver",
         "ans": 4
     },
-  
-
+//    AJP ch-2
+    {
+        "question": "Which configuration file is used to deploy a Java Servlet in Apache Tomcat?",
+        "opt1": "server.xml",
+        "opt2": "tomcat.xml",
+        "opt3": "web.xml",
+        "opt4": "context.xml",
+        "ans": 3
+        },
+        {
+        "question": "Which method is called only once during the lifecycle of a servlet?",
+        "opt1": "service()",
+        "opt2": "init()",
+        "opt3": "doGet()",
+        "opt4": "destroy()",
+        "ans": 2
+        },
+        {
+        "question": "What is the default port number on which Apache Tomcat runs?",
+        "opt1": "80",
+        "opt2": "8080",
+        "opt3": "9090",
+        "opt4": "443",
+        "ans": 2
+        },
+        {
+        "question": "Which interface must be implemented by all servlets?",
+        "opt1": "ServletConfig",
+        "opt2": "HttpServlet",
+        "opt3": "Servlet",
+        "opt4": "GenericServlet",
+        "ans": 3
+        },
+        {
+        "question": "Which method is used to send an error response to the client?",
+        "opt1": "sendRedirect()",
+        "opt2": "setStatus()",
+        "opt3": "sendError()",
+        "opt4": "setResponseCode()",
+        "ans": 3
+        },
+        {
+        "question": "Which HTTP method is considered idempotent?",
+        "opt1": "POST",
+        "opt2": "GET",
+        "opt3": "PUT",
+        "opt4": "DELETE",
+        "ans": 3
+        },
+        {
+        "question": "Which object allows data sharing among multiple servlets?",
+        "opt1": "ServletConfig",
+        "opt2": "ServletContext",
+        "opt3": "HttpSession",
+        "opt4": "RequestDispatcher",
+        "ans": 2
+        },
+        {
+        "question": "Which annotation is used to define a servlet without modifying web.xml?",
+        "opt1": "@ServletMapping",
+        "opt2": "@WebFilter",
+        "opt3": "@WebServlet",
+        "opt4": "@ServletConfig",
+        "ans": 3
+        },
+        {
+        "question": "Which method is used to invalidate a session?",
+        "opt1": "invalidateSession()",
+        "opt2": "session.remove()",
+        "opt3": "session.invalidate()",
+        "opt4": "destroySession()",
+        "ans": 3
+        },
+        {
+        "question": "Which type of servlet filter executes before the request reaches the servlet?",
+        "opt1": "Response Filter",
+        "opt2": "Preprocessing Filter",
+        "opt3": "Postprocessing Filter",
+        "opt4": "Error Filter",
+        "ans": 2
+        },
+        
+        
 
 ]
